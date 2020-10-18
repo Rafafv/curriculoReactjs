@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import Container from 'react-bootstrap/Container';
-import Body from './Body';
-
+import Card from './CardTextos';
 import Foto from './Foto';
 
 function App() {
@@ -13,10 +12,13 @@ function App() {
          <Foto /> 
       </header>
       <body className="App-body">
-        <Container>
-            <Body />  
+        <Container >
+            <Card />  
         </Container>
       </body>
+      <footer>
+        
+      </footer>
     </div>
   );
 }

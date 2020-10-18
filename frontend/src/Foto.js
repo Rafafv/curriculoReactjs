@@ -7,16 +7,16 @@ import nome from './nome.gif';
 
 export default function Foto(){
     return (
-        <div>
+        <div> 
           
-              <Row className="justify-content-md-center">
+              <Row >
                     <Col xs lg="5" style={{ alignItems:'flex-end'}}>
                       <Image src={nome} roundedCircle />
                    
                     </Col>
                     <Col md="auto" style={{ padding: '20px' }}></Col>
                     <Col xs lg="2">
-                        <Image src={fotoPerfil} roundedCircle style={{ backgroundColor:'#D4EFDF',boxShadow:'0px 20px 80px -22px rgba(0,0,0,0.84)' }}/>
+                        <Image src={fotoPerfil} roundedCircle style={{ backgroundColor:'#D4EFDF',boxShadow:'0px 20px 80px -22px rgba(0,0,0,2)' }}/>
                     </Col>
                 </Row>
             

@@ -10,7 +10,7 @@ const curriculo = function(dados) {
 };
 
 curriculo.getAll = result => {
-    mysql.query("select * from curriculo.dados", (err, res) => {
+    mysql.query("select * from curriculo.card", (err, res) => {
       if (err) {
         result(null, err);
         return;
