@@ -46,6 +46,8 @@ Na pasta frontend rode o comando para instalar o axios
 
 * axios  - get dados da API -- npm install axios
 
+* Css com bootstrap -- npm install react-bootstrap 
+
 
 <br>
 <br>
