@@ -1,2 +1,0 @@
-# curriculoReactjs
-# curriculoReactjs
