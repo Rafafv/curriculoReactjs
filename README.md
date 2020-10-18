@@ -6,7 +6,7 @@ Requisitos
 
 - Nodejs
 
-Dependências necessárias backend
+Dependências necessárias 
 
 * Body-parser - é um módulos capaz de converter o body da requisição para vários formatos -- npm install body-parser
 
@@ -42,7 +42,9 @@ Crie o database no mysql, e insera dados na tabela.
 
 <strong>React js/Frontend</strong>
 
-Na pasta frontend rode o comando para instalar o axios
+Dependências necessárias 
+
+Na pasta frontend rode os comandos
 
 * axios  - get dados da API -- npm install axios
 
