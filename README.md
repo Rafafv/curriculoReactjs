@@ -17,7 +17,7 @@ Dependências necessárias backend
 * Cors - Para autorizar o get -- npm install cors 
 
   
-navegue até o arquivo dbConfig.js,
+Navegue até o arquivo dbConfig.js,
 altere as variaveis para conectar no seu banco:
 `````
     HOST: "localhost",
@@ -26,7 +26,7 @@ altere as variaveis para conectar no seu banco:
     DB: "curriculo"
 `````
 
-crie o database no mysql, e insera dados na tabela.
+Crie o database no mysql, e insera dados na tabela.
 
 ````
   CREATE TABLE `curriculo`.`card` (
