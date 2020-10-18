@@ -9,7 +9,7 @@ export default function Foto(){
     return (
         <div> 
           
-              <Row >
+               <Row >
                     <Col xs lg="5" style={{ alignItems:'flex-end'}}>
                       <Image src={nome} roundedCircle />
                    
@@ -19,6 +19,9 @@ export default function Foto(){
                         <Image src={fotoPerfil} roundedCircle style={{ backgroundColor:'#D4EFDF',boxShadow:'0px 20px 80px -22px rgba(0,0,0,2)' }}/>
                     </Col>
                 </Row>
+                <Row>
+                             <h1 style={{color:'#E59866 ',fontStyle:'italic'}}>Veja meus projetos no <a href="https://github.com/Rafafv" style={{textDecoration:'none'}} >Github</a></h1>
+                        </Row>
             
         </div>
     )
